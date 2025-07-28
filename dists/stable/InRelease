@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Mon, 28 Jul 2025 05:46:23 +0000
+MD5Sum:
+ 7555e7effa92f88a2a7f58b55800a7b6               38 Release
+ 8ad3f76ae60f5eee25a487bcc3d8ee3b              455 main/binary-all/Packages.gz
+ 314463abc463aa6181089228631d8e11               26 main/binary-amd64/Packages.gz
+ 314463abc463aa6181089228631d8e11               26 main/binary-i386/Packages.gz
+SHA1:
+ 9515ad180c45d58cc6da59d31367848dade3a076               38 Release
+ 4ace2504fa640120868c562a923e8d828e6a12cb              455 main/binary-all/Packages.gz
+ e861db16f9764dcfb5c79c73f7ceb96d72fe9456               26 main/binary-amd64/Packages.gz
+ e861db16f9764dcfb5c79c73f7ceb96d72fe9456               26 main/binary-i386/Packages.gz
+SHA256:
+ 9444f5a4adaf897fece679f9cfb3daf210d7baaf1816360e745315bc95d3e1e6               38 Release
+ 5e4d99bd0e251055f4f52f814e79f82372c0fdcf326f6f582ba99fffec6332c7              455 main/binary-all/Packages.gz
+ 51916abdd42ef126d703378fd3886a584721768fe076be62f7db77b1408ea76b               26 main/binary-amd64/Packages.gz
+ 51916abdd42ef126d703378fd3886a584721768fe076be62f7db77b1408ea76b               26 main/binary-i386/Packages.gz
+SHA512:
+ 999375061d8a86613b627bc1c5170f88e932083efa5dabf03637165cd3b433f5ca49d8cd87730fdd90846f1137e7e0ed1d3b0b5dfb6beb13b92e13f01de3700d               38 Release
+ 60f1a3c96b647039decf197e08c360dd639a683b13a31b52996c80602b7124578a1c0738f62bf7bf36a3b7fc19055d20424957191cc607b5262d3997f38b297f              455 main/binary-all/Packages.gz
+ 72b0787afe05bf03bb4154b6cb5d3d09abe4cc04e86692f2559db106a179d0541b1d72daf217ba53cd4b35b1244c5eae8720e29817cac949f619e8c756c22aab               26 main/binary-amd64/Packages.gz
+ 72b0787afe05bf03bb4154b6cb5d3d09abe4cc04e86692f2559db106a179d0541b1d72daf217ba53cd4b35b1244c5eae8720e29817cac949f619e8c756c22aab               26 main/binary-i386/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEqy/6EApoM5rcA/AOlZxkg6IyzvsFAmiHDsQSHDB4ZG9sYW5A
+Z21haWwuY29tAAoJEJWcZIOiMs77HwIP/20FMfSl8H1T5efr/TgZjrz1SypedriY
+ns5weDdWvgstl0oUzc1tinJazQduijQiATHawO3nYaI/l6oLQDgHrCV0xdywMhHW
+jTuL1ueFIraqVzbIHr/ksMVooVYnOjIcIjf9zOX6DmV/vQktN5cwAuQCL+/YCZwS
+udY4EMDA2cKIQfnRkmnyiiY7kdILjpaZOKBiy6nBBpoTo/Dqc16N09zyI+hSx4r0
+lrxPJaNNH7JAl3K3hs/KYDNR2UKShFR3g/NdAJQN/IsmYFPZjqovM80Bz0+bUISW
+q9qx1VsoYl/e1qG/ztCWKuZNrJ73OLFTfq8ykfwUTsjq0rXeBtVqWGIwNfTjU9P1
+aEkZJElWvkWKr07xQoRc7BD5CyOv3uAwVyN3jhs+FRbrR3wbmmTOC7wFd5sWUx7G
+7YXRa4NI10zHFFc8rDD5tzElAt8KjJ7wuhNzMR+nCY4/s37OMgr3WDm31Cz4igxF
+ZLbhlROsGzTcPP6kGTDVRzwiJ/QODrpX3jncVXW8/GFn3fotOjeCTaUtjVBTgSdu
+OBbOaCm5F4LSKW3er0co0o2M1AjoT0FRUVTh3HEXDhZH9fjhlrKaCcKyAJswrdOH
+6MjnOvaDRAMEa+E4T3whkSOQJQDfeHXKZJchZosrE1NsoQBCG0KwsGMC7U131Bzq
+uXc0qKX6NSLv
+=+PWX
+-----END PGP SIGNATURE-----
