@@ -16,6 +16,10 @@
 
 ---
 
+[IPX](./screenshots/ipx-help.jpg)
+
+---
+
 ## 📥 Installation
 
 ### With [uv](https://github.com/astral-sh/uv):
