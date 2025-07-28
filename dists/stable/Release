@@ -19,3 +19,6 @@ SHA512:
  60f1a3c96b647039decf197e08c360dd639a683b13a31b52996c80602b7124578a1c0738f62bf7bf36a3b7fc19055d20424957191cc607b5262d3997f38b297f              455 dists/stable/main/binary-all/Packages.gz
  72b0787afe05bf03bb4154b6cb5d3d09abe4cc04e86692f2559db106a179d0541b1d72daf217ba53cd4b35b1244c5eae8720e29817cac949f619e8c756c22aab               26 dists/stable/main/binary-amd64/Packages.gz
  72b0787afe05bf03bb4154b6cb5d3d09abe4cc04e86692f2559db106a179d0541b1d72daf217ba53cd4b35b1244c5eae8720e29817cac949f619e8c756c22aab               26 dists/stable/main/binary-i386/Packages.gz
+Codename: stable
+Architectures: all amd64 i386
+Components: main
