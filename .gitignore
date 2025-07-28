@@ -209,3 +209,5 @@ __marimo__/
 
 # builds
 *.egg-info
+pool
+apt-repo
