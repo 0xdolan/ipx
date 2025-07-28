@@ -1,24 +1,21 @@
-Date: Mon, 28 Jul 2025 06:16:56 +0000
+Date: Mon, 28 Jul 2025 06:59:13 +0000
 MD5Sum:
- e76e31e83e991e7d146f87761fdbde39               38 Release
- 8ad3f76ae60f5eee25a487bcc3d8ee3b              455 dists/stable/main/binary-all/Packages.gz
- 314463abc463aa6181089228631d8e11               26 dists/stable/main/binary-amd64/Packages.gz
- 314463abc463aa6181089228631d8e11               26 dists/stable/main/binary-i386/Packages.gz
+ cd5c321dccf64109d8fd81be934fdc4c               38 Release
+ 825b843e49c2b3d90feae9a2217f1ef9              337 main/binary-all/Packages.gz
+ 825b843e49c2b3d90feae9a2217f1ef9              337 main/binary-amd64/Packages.gz
+ 314463abc463aa6181089228631d8e11               26 main/binary-i386/Packages.gz
 SHA1:
- 25b8d909e4c1292bdfe70c183675f1ef0bb66470               38 Release
- 4ace2504fa640120868c562a923e8d828e6a12cb              455 dists/stable/main/binary-all/Packages.gz
- e861db16f9764dcfb5c79c73f7ceb96d72fe9456               26 dists/stable/main/binary-amd64/Packages.gz
- e861db16f9764dcfb5c79c73f7ceb96d72fe9456               26 dists/stable/main/binary-i386/Packages.gz
+ 848cc889f4a06d25a623bd6bb11fbd8fde093a38               38 Release
+ ec9e08f8130dc7fd3ba6a4a90b0c112d720490bb              337 main/binary-all/Packages.gz
+ ec9e08f8130dc7fd3ba6a4a90b0c112d720490bb              337 main/binary-amd64/Packages.gz
+ e861db16f9764dcfb5c79c73f7ceb96d72fe9456               26 main/binary-i386/Packages.gz
 SHA256:
- 7cd4c30d2d747b5bc70d9d415f85ac320a7a1ca275fa0c325bd5e67780b820b3               38 Release
- 5e4d99bd0e251055f4f52f814e79f82372c0fdcf326f6f582ba99fffec6332c7              455 dists/stable/main/binary-all/Packages.gz
- 51916abdd42ef126d703378fd3886a584721768fe076be62f7db77b1408ea76b               26 dists/stable/main/binary-amd64/Packages.gz
- 51916abdd42ef126d703378fd3886a584721768fe076be62f7db77b1408ea76b               26 dists/stable/main/binary-i386/Packages.gz
+ 1666a62da7b30c5dbec310b13ba526273f47cb756a5e8a27ea39e28edb3dcb18               38 Release
+ 044be3c49e3a2ed63f8837f284e28f11a8ca5947b5c3031dc5c7c12c6d245966              337 main/binary-all/Packages.gz
+ 044be3c49e3a2ed63f8837f284e28f11a8ca5947b5c3031dc5c7c12c6d245966              337 main/binary-amd64/Packages.gz
+ 51916abdd42ef126d703378fd3886a584721768fe076be62f7db77b1408ea76b               26 main/binary-i386/Packages.gz
 SHA512:
- 085af9fe2d1714c0b144f81a4d680707cc52ad8d3e2573b867d39884a157a2dec0b22632fd2da2a47639a048dd12c52d6a6af5c7adf80826a28a0dfe9c8fd782               38 Release
- 60f1a3c96b647039decf197e08c360dd639a683b13a31b52996c80602b7124578a1c0738f62bf7bf36a3b7fc19055d20424957191cc607b5262d3997f38b297f              455 dists/stable/main/binary-all/Packages.gz
- 72b0787afe05bf03bb4154b6cb5d3d09abe4cc04e86692f2559db106a179d0541b1d72daf217ba53cd4b35b1244c5eae8720e29817cac949f619e8c756c22aab               26 dists/stable/main/binary-amd64/Packages.gz
- 72b0787afe05bf03bb4154b6cb5d3d09abe4cc04e86692f2559db106a179d0541b1d72daf217ba53cd4b35b1244c5eae8720e29817cac949f619e8c756c22aab               26 dists/stable/main/binary-i386/Packages.gz
-Codename: stable
-Architectures: all amd64 i386
-Components: main
+ 5e15eac6c4ed8eb61ba71505ceaffae0fe3ae19078a812421ac89654042da361eda17418d2ae8bd13590d0d49e8aba19af0064752adea1edb07e02d1dd57c32e               38 Release
+ 95728d2420f3c10e108e82e9c7d4483e8aa0bc341b38479ccbb20c9fa733a5f0d8e2faacf68adfe07084e5ed37b0969cb950059e6a09657e4087649c305f4527              337 main/binary-all/Packages.gz
+ 95728d2420f3c10e108e82e9c7d4483e8aa0bc341b38479ccbb20c9fa733a5f0d8e2faacf68adfe07084e5ed37b0969cb950059e6a09657e4087649c305f4527              337 main/binary-amd64/Packages.gz
+ 72b0787afe05bf03bb4154b6cb5d3d09abe4cc04e86692f2559db106a179d0541b1d72daf217ba53cd4b35b1244c5eae8720e29817cac949f619e8c756c22aab               26 main/binary-i386/Packages.gz
