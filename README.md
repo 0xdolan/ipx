@@ -16,7 +16,7 @@
 
 ---
 
-[IPX](./screenshots/ipx-help.jpg)
+![IPX](./screenshots/ipx-help.jpg)
 
 ---
 
