@@ -1,1 +1,91 @@
-<!DOCTYPE html><html><head><title>IPX APT Repo</title></head><body><h1>IPX APT Repository</h1><p>This repository contains the latest .deb packages for the IPX CLI tool.</p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IPX APT Repository</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Fira Code', monospace;
+      background-color: #0e1117;
+      color: #c9d1d9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      padding: 2rem;
+      background-color: #161b22;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 255, 200, 0.1);
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #00ffc8;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      color: #58a6ff;
+      font-size: 1.4rem;
+      margin-top: 1.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #b1bac4;
+    }
+    code {
+      background: #21262d;
+      color: #79c0ff;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-size: 0.95rem;
+    }
+    a {
+      color: #00ffc8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📦 IPX APT Repository</h1>
+    <p><strong>IPX</strong> is a modern IP subnet calculator for cybersecurity professionals, with rich CLI output powered by <code>typer</code> and <code>rich</code>.</p>
+
+    <h2>🔧 Install via APT</h2>
+    <p>
+      To install <code>ipx</code> from this repository:
+    </p>
+    <pre><code>echo "deb [trusted=yes] https://0xdolan.github.io/ipx stable main" | sudo tee /etc/apt/sources.list.d/ipx.list
+sudo apt update
+sudo apt install ipx
+</code></pre>
+
+    <h2>📚 More Info</h2>
+    <p>
+      View full source code and documentation on <a href="https://github.com/0xdolan/ipx">GitHub</a>.
+    </p>
+    <p>
+      Latest <code>.deb</code> packages are available in the <a href="pool/">pool/</a> directory.
+    </p>
+
+    <footer>
+      &copy; 2025 Dolan – Open Source under GPLv3
+    </footer>
+  </div>
+</body>
+</html>
