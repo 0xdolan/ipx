@@ -45,11 +45,11 @@
       text-align: left;
       margin-top: 1rem;
       overflow-x: auto;
+      padding: 1.5rem;
     }
 
     .code-block pre {
       margin: 0;
-      padding: 1rem;
       font-size: 0.95rem;
       color: #79c0ff;
       white-space: pre-wrap;
@@ -63,24 +63,29 @@
       border: none;
       color: white;
       border-radius: 5px;
-      padding: 4px 8px;
-      font-size: 0.75rem;
+      padding: 5px 8px;
+      font-size: 1rem;
       cursor: pointer;
-      opacity: 0.8;
+      opacity: 0;
       transition: opacity 0.2s ease;
     }
 
-    .copy-btn:hover {
+    .code-block:hover .copy-btn {
       opacity: 1;
     }
 
-    .copied-msg {
-      position: absolute;
-      top: 10px;
-      right: 75px;
-      font-size: 0.75rem;
-      color: #00ffc8;
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #2ea043;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 5px;
+      font-size: 0.9rem;
       display: none;
+      z-index: 9999;
     }
 
     a {
@@ -104,14 +109,21 @@
     <h1>📦 IPX APT Repository</h1>
     <p><strong>IPX</strong> is a modern IP subnet calculator for cybersecurity professionals, with rich CLI output powered by <code>typer</code> and <code>rich</code>.</p>
 
-    <h2>🔧 Install via APT</h2>
-    <p>Run the following:</p>
+    <h2>🔧 Install via APT (insecure but simple)</h2>
     <div class="code-block">
       <pre id="apt-code">echo "deb [trusted=yes] https://0xdolan.github.io/ipx stable main" | sudo tee /etc/apt/sources.list.d/ipx.list
 sudo apt update
 sudo apt install ipx</pre>
-      <span class="copied-msg" id="copied-msg">Copied!</span>
-      <button class="copy-btn" onclick="copyCode()">📋 Copy</button>
+      <button class="copy-btn" onclick="copyCode('apt-code')">📋</button>
+    </div>
+
+    <h2>🔐 Install securely with GPG key</h2>
+    <div class="code-block">
+      <pre id="gpg-code">curl -fsSL https://0xdolan.github.io/ipx/public_key.gpg | sudo tee /usr/share/keyrings/ipx.gpg > /dev/null
+echo "deb [signed-by=/usr/share/keyrings/ipx.gpg] https://0xdolan.github.io/ipx stable main" | sudo tee /etc/apt/sources.list.d/ipx.list
+sudo apt update
+sudo apt install ipx</pre>
+      <button class="copy-btn" onclick="copyCode('gpg-code')">📋</button>
     </div>
 
     <h2>📚 More Info</h2>
@@ -122,13 +134,15 @@ sudo apt install ipx</pre>
     </footer>
   </div>
 
+  <div class="toast" id="toast">📋 Copied to clipboard</div>
+
   <script>
-    function copyCode() {
-      const codeText = document.getElementById('apt-code').innerText;
+    function copyCode(id) {
+      const codeText = document.getElementById(id).innerText;
       navigator.clipboard.writeText(codeText).then(() => {
-        const msg = document.getElementById('copied-msg');
-        msg.style.display = 'inline';
-        setTimeout(() => msg.style.display = 'none', 1500);
+        const toast = document.getElementById('toast');
+        toast.style.display = 'block';
+        setTimeout(() => toast.style.display = 'none', 1500);
       });
     }
   </script>
