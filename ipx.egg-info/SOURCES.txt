@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+ipx/__init__.py
+ipx/main.py
+ipx/utils.py
+ipx.egg-info/PKG-INFO
+ipx.egg-info/SOURCES.txt
+ipx.egg-info/dependency_links.txt
+ipx.egg-info/entry_points.txt
+ipx.egg-info/requires.txt
+ipx.egg-info/top_level.txt
+tests/test_main.py

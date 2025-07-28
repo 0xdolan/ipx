@@ -1,0 +1,2 @@
+[console_scripts]
+ipx = ipx.main:app
