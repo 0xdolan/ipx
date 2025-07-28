@@ -1,41 +1,34 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Mon, 28 Jul 2025 06:59:13 +0000
-MD5Sum:
- cd5c321dccf64109d8fd81be934fdc4c               38 Release
- 825b843e49c2b3d90feae9a2217f1ef9              337 main/binary-all/Packages.gz
- 825b843e49c2b3d90feae9a2217f1ef9              337 main/binary-amd64/Packages.gz
- 314463abc463aa6181089228631d8e11               26 main/binary-i386/Packages.gz
-SHA1:
- 848cc889f4a06d25a623bd6bb11fbd8fde093a38               38 Release
- ec9e08f8130dc7fd3ba6a4a90b0c112d720490bb              337 main/binary-all/Packages.gz
- ec9e08f8130dc7fd3ba6a4a90b0c112d720490bb              337 main/binary-amd64/Packages.gz
- e861db16f9764dcfb5c79c73f7ceb96d72fe9456               26 main/binary-i386/Packages.gz
-SHA256:
- 1666a62da7b30c5dbec310b13ba526273f47cb756a5e8a27ea39e28edb3dcb18               38 Release
- 044be3c49e3a2ed63f8837f284e28f11a8ca5947b5c3031dc5c7c12c6d245966              337 main/binary-all/Packages.gz
- 044be3c49e3a2ed63f8837f284e28f11a8ca5947b5c3031dc5c7c12c6d245966              337 main/binary-amd64/Packages.gz
- 51916abdd42ef126d703378fd3886a584721768fe076be62f7db77b1408ea76b               26 main/binary-i386/Packages.gz
-SHA512:
- 5e15eac6c4ed8eb61ba71505ceaffae0fe3ae19078a812421ac89654042da361eda17418d2ae8bd13590d0d49e8aba19af0064752adea1edb07e02d1dd57c32e               38 Release
- 95728d2420f3c10e108e82e9c7d4483e8aa0bc341b38479ccbb20c9fa733a5f0d8e2faacf68adfe07084e5ed37b0969cb950059e6a09657e4087649c305f4527              337 main/binary-all/Packages.gz
- 95728d2420f3c10e108e82e9c7d4483e8aa0bc341b38479ccbb20c9fa733a5f0d8e2faacf68adfe07084e5ed37b0969cb950059e6a09657e4087649c305f4527              337 main/binary-amd64/Packages.gz
- 72b0787afe05bf03bb4154b6cb5d3d09abe4cc04e86692f2559db106a179d0541b1d72daf217ba53cd4b35b1244c5eae8720e29817cac949f619e8c756c22aab               26 main/binary-i386/Packages.gz
+Origin: ipx
+Label: ipx
+Suite: stable
+Version: 1.0
 Codename: stable
+Date: Mon, 28 Jul 2025 07:10:43 +0000
+Architectures: amd64 all
+Components: main
+Description: IPX CLI Debian Repo
+MD5Sum:
+  825b843e49c2b3d90feae9a2217f1ef9 dists/stable/main/binary-all/Packages.gz dists/stable/main/binary-all/Packages.gz
+  825b843e49c2b3d90feae9a2217f1ef9 dists/stable/main/binary-amd64/Packages.gz dists/stable/main/binary-amd64/Packages.gz
+SHA256:
+  044be3c49e3a2ed63f8837f284e28f11a8ca5947b5c3031dc5c7c12c6d245966 dists/stable/main/binary-all/Packages.gz dists/stable/main/binary-all/Packages.gz
+  044be3c49e3a2ed63f8837f284e28f11a8ca5947b5c3031dc5c7c12c6d245966 dists/stable/main/binary-amd64/Packages.gz dists/stable/main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEfxKWbzBU43EkKoC+R+jCJokdPmUFAmiHIccACgkQR+jCJokd
-PmXa7A//fj6wWIt8nuKOXdZsYm7g/zXd6BJtRAHF/x5BaO43lzSSmrv/VzDfOLZb
-HGrYALhs9KgdRNKnwsO/J589gbr4bWNzU/7FV3nmYHfnapiU7Pj91WXazGwOyOT4
-cpr95u6CmQx7zq3wu1TfvgAD3Oaza5v3rew7CN0G5FS4h6wksdEqh0BxyNjZpiWV
-CJpeQTdIdXUYnTjW2VoS/VX4uWxgs6AKjKyJ5fdC8CkpOqRiXmue7C70qz7k+hzT
-WRrTvol2f0LpBAV3Zsziyv3xMCSe0DfqyjNbAg9K0SUoCnzZ7+agGIFAMW5VGGrb
-0HfpEVpBvl3Je2gvfWqnC6ObDzJP92JDKf+aIWgIc09kiHLCFW9Gxj9jB3lAv/uH
-HycWi8uKwt2wYikQ1rum7DIIA9B+mjvXBTMPxKt+dfQZG5PTGUN86f5ooEqRltPy
-oPUEBifzm8rH2jBSFtyL2R/qdLdQK2WeJuoEnc9AOASECrPaKQibuRmxCBlKfXgi
-lh+fjFY/woRqpOczjQ4p9UzKyxs3OveWmaePpHbJmphzYjdOnJcGotApoif11MgN
-9GKLC4Ob6L2ac9mBjyjT8GDxmw636tNDIejaq4Cb87v8LtX6CiM6JGbJfr3+wh0q
-GFiIZjJAR32EamfnQkMU/0kgHWDwDAl9mCa9Nwo9sDvlWznZ2FU=
-=wT6Z
+iQIzBAEBCgAdFiEEfxKWbzBU43EkKoC+R+jCJokdPmUFAmiHIoQACgkQR+jCJokd
+PmWvrQ//WY+0/tl4tSgqWMMl1F+XJHSr0YM4BQZEFIWyJgWleigE1shz6LKzqx52
+s6cPKQKQYfwL8CkMTHcPGZGRChz7kTYbWZ3xpWiJx5+HEWqBeW59uZUt9vlpq0zF
+383GiTS8QNtJgZPSwblra2VoUoHKussBaGYbTf7PXxkUkyFTr/q6ePtoMUKqjT9y
+i5gyPhkeRRDXwoqS7B70vppOzpjPA/oL5pDaU7nSngjgo1Tp8ysXdZCDHZWnKn/N
+NzQV7jeTSeyDCZEoT1ez4x3qeGveuzg41+bpzhvFIJkggzUaI+SpcCKLFxVWcjdd
+3D8t+UOAjQEwBPCjTEM7r+cKa+9pbxFIOJ0cU7Lw3GoKTp8/g7JCllTBGOwSsR9G
+VQ4xIuKxXdFZHbjqlLDMdGJXvrO+niljukFgFYg3vGJJsaXz3fjyL91R2nT0EvI3
+I6lRBTw+5ilea6fr0aDiflFysPfdmpJ7dK4Rb/0ZUmjIY3ACusbSgv/NyiN961Zf
+Fd/vl0eULsj4lVKa6gpmlOZDHyuiiczkWKKyrsXkQcjWm5JS9qbZW/zgSwoPlufQ
+MfssEHRk9ioi6xfIu8e0ORE48T6uN0uh34eUqkjpHkOmxjFjyTTrQy/koWycmV5Q
+Jec1pfT7lBs3FgTT6rsAN5Uf1b5VgbgsE8ILDkDm/9ocqzhXXJA=
+=kBpB
 -----END PGP SIGNATURE-----
