@@ -40,12 +40,33 @@
       line-height: 1.6;
       color: #b1bac4;
     }
-    code {
+    pre {
+      position: relative;
       background: #21262d;
       color: #79c0ff;
-      padding: 4px 8px;
-      border-radius: 5px;
+      text-align: left;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin-top: 1rem;
+    }
+    code {
       font-size: 0.95rem;
+    }
+    .copy-button {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      background: #2ea043;
+      border: none;
+      color: white;
+      font-size: 0.75rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .copy-button:hover {
+      background: #238636;
     }
     a {
       color: #00ffc8;
@@ -67,25 +88,28 @@
     <p><strong>IPX</strong> is a modern IP subnet calculator for cybersecurity professionals, with rich CLI output powered by <code>typer</code> and <code>rich</code>.</p>
 
     <h2>🔧 Install via APT</h2>
-    <p>
-      To install <code>ipx</code> from this repository:
-    </p>
-    <pre><code>echo "deb [trusted=yes] https://0xdolan.github.io/ipx stable main" | sudo tee /etc/apt/sources.list.d/ipx.list
+    <p>Run the following commands to install <code>ipx</code>:</p>
+    <pre><code id="apt-code">echo "deb [trusted=yes] https://0xdolan.github.io/ipx stable main" | sudo tee /etc/apt/sources.list.d/ipx.list
 sudo apt update
-sudo apt install ipx
-</code></pre>
+sudo apt install ipx</code>
+<button class="copy-button" onclick="copyCode()">Copy</button>
+</pre>
 
     <h2>📚 More Info</h2>
-    <p>
-      View full source code and documentation on <a href="https://github.com/0xdolan/ipx">GitHub</a>.
-    </p>
-    <p>
-      Latest <code>.deb</code> packages are available in the <a href="pool/">pool/</a> directory.
-    </p>
+    <p>View full source code and documentation on <a href="https://github.com/0xdolan/ipx">GitHub</a>.</p>
 
     <footer>
       &copy; 2025 Dolan – Open Source under GPLv3
     </footer>
   </div>
+
+  <script>
+    function copyCode() {
+      const code = document.getElementById('apt-code').innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert("Command copied to clipboard!");
+      });
+    }
+  </script>
 </body>
 </html>
