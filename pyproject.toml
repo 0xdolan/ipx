@@ -5,11 +5,7 @@ description = "Modern IP subnet calculator with Rich CLI output for cybersecurit
 authors = [{ name = "Dolan", email = "0xdolan@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "pytest>=8.4.1",
-    "rich>=14.1.0",
-    "typer>=0.9.0",
-]
+dependencies = ["pytest>=8.4.1", "rich>=14.1.0", "typer>=0.16.0"]
 
 [project.scripts]
 ipx = "ipx.main:app"
@@ -18,8 +14,4 @@ ipx = "ipx.main:app"
 packages = ["ipx"]
 
 [dependency-groups]
-dev = [
-    "pytest>=8.4.1",
-    "ruff>=0.12.5",
-]
-
+dev = ["pytest>=8.4.1", "ruff>=0.12.5"]
